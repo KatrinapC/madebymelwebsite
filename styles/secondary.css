@@ -58,6 +58,20 @@ p{
   height: auto;
 }
 
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border-spacing: 10px;
+}
+
+.carousel-indicators li img{
+  position: absolute;
+  width: 50px;
+  height: auto;
+  background-color: transparent;
+}
+
   input[type=text] {
   width: 100%;
   padding: 15px;
