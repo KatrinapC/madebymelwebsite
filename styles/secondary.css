@@ -27,6 +27,11 @@ p{
   font-size: 16px;
 }
 
+#banner{
+  max-width: 100%;
+  height: auto;
+}
+
 .maincontent{
   background-color: rgb(248,249,250);
 }
