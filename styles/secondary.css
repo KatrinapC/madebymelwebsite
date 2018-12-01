@@ -29,15 +29,6 @@ p{
   padding-right: 20px;
 }
 
-#banner{
-  max-width: 100%;
-  height: auto;
-}
-
-#carousel{
-  max-width: 100%;
-  height: auto;
-}
 
 .maincontent{
   background-color: rgb(248,249,250);
@@ -61,6 +52,12 @@ p{
   padding: 16px;
   background-color: white;
 }
+
+.carousel-inner{
+  max-width: 100%;
+  height: auto;
+}
+
   input[type=text] {
   width: 100%;
   padding: 15px;
@@ -69,4 +66,14 @@ p{
   background: white;
   border-radius: 15px;
 }
+}
+
+#banner{
+  max-width: 100%;
+  height: auto;
+}
+
+#carousel{
+  max-width: 100%;
+  height: auto;
 }
