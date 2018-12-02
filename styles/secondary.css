@@ -45,7 +45,7 @@ p{
 .navbar-brand{
   font-family: 'Dancing Script', cursive;
   font-size: 30px;
-  font-color: teal;
+  color: rgba(0,91,150);
 }
 
 .container {
