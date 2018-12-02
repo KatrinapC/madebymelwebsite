@@ -28,6 +28,8 @@ p{
   font-size: 16px;
   padding-left: 20px;
   padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 
@@ -98,4 +100,15 @@ p{
 #carousel{
   max-width: 100%;
   height: auto;
+}
+
+@media (max-width: 820px){
+  .photo{
+    max-width: 400px;
+    padding-top: 100%;
+  }
+
+  #melImage{
+    object-fit: cover;
+  }
 }
