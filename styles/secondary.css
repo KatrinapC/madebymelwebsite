@@ -62,10 +62,12 @@ article {
 }
 
 input[type=text] {
-width: 100%;
+width: 90%;
 padding: 15px;
 margin: 5px 0 22px 0;
-border: none;
+border-style: solid;
+border-width: 1px;
+border-color: rgba(100,151,177);
 background: white;
 border-radius: 15px;
 }
@@ -227,8 +229,17 @@ border-radius: 15px;
   }
 
   form{
-    max-width: 90%;
+    width: 90%;
     align: center;
+  }
+
+  input[type=text] {
+  width: 90%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: white;
+  border-radius: 15px;
   }
 
   .photo{
