@@ -73,7 +73,6 @@ p{
   margin: 10px;
   width: 400px;
   height: 400px;
-  float: left;
 }
 
   input[type=text] {
@@ -114,65 +113,4 @@ p{
     object-fit: cover;
     border-radius: 100%;
   }
-}
-
-article {
-  width: 33.333%;
-  position: relative;
-  float: left;
-  text-align: center;
-  padding-top: 20px;
-}
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin: auto;
-  padding: 5px;
-  border-radius: 15px;
-}
-.text {
-  z-index: 100;
-  position: absolute;
-  text-align: center;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  font-family: Helvetica;
-  background-color: rgba(0,0,0,0.5);
-  background-repeat: no-repeat;
-  margin-left: 6px;
-  margin-right: 6px;
-}
-
-.fa {
-    padding: 20px;
-    font-size: 30px;
-    width: 50px;
-    height: 50px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.fa:hover {
-    opacity: 0.7;
-}
-
-.fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-
-.fa-instagram {
-  background: #e95950;
-  color: white;
-}
-
-#shell img{
-  max-width: 150px;
-  max-height: auto;
 }
