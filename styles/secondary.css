@@ -199,7 +199,7 @@ article {
 
 @media only screen and (max-device-width: 480px){
   article {
-    width: 40%;
+    width: 50%;
     position: relative;
     float: left;
     text-align: center;
@@ -224,7 +224,7 @@ article {
     position: absolute;
     text-align: center;
     color: white;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: normal;
     left: 0;
     right: 0;
