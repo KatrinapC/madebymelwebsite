@@ -198,9 +198,42 @@ article {
 
 
 @media only screen and (max-device-width: 480px){
+  article {
+    width: 50%;
+    position: relative;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+  }
+
   .photo{
     max-width: 100px;
     padding-top: 100%;
+  }
+
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 5px;
+    border-radius: 15px;
+  }
+  .text {
+    z-index: 100;
+    position: absolute;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: Helvetica;
+    background-color: rgba(0,0,0,0.5);
+    background-repeat: no-repeat;
+    margin-left: 6px;
+    margin-right: 6px;
   }
 
   #melImage{
